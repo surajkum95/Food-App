@@ -1,0 +1,68 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "Pizas",
+        "price": 10.99,
+        "image": { "fields": { "file": { "url": "./images/product-1.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "Burger",
+        "price": 12.99,
+        "image": { "fields": { "file": { "url": "./images/product-2.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "Parathas",
+        "price": 12.99,
+        "image": { "fields": { "file": { "url": "./images/product-3.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "Chapatis",
+        "price": 22.99,
+        "image": { "fields": { "file": { "url": "./images/product-4.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "Deserts",
+        "price": 88.99,
+        "image": { "fields": { "file": { "url": "./images/product-5.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "Veg Starters",
+        "price": 32.99,
+        "image": { "fields": { "file": { "url": "./images/product-6.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "Non-Veg Starters",
+        "price": 45.99,
+        "image": { "fields": { "file": { "url": "./images/product-7.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "Soft Drinks",
+        "price": 33.99,
+        "image": { "fields": { "file": { "url": "./images/product-8.jpeg" } } }
+      }
+    }
+  ]
+}

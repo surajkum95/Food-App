@@ -1,0 +1,109 @@
+.mainnav{
+    position: static;
+    height: 60px;
+    widows: 90%;
+    z-index: 3;
+}
+.nav-center{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.product-overlay-grid{
+    width: 90vw;
+    /* margin: 0 auto; */
+    max-width: 1170px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+}
+.product-items{
+    margin: 10px;
+    padding: 10px;
+}
+.img-container{
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    height: 200px;
+}
+.img-container:hover {
+    opacity: 0.9;
+}
+.addtobagbtn{
+    position: absolute;
+    top: 80%;
+    right: 0;
+    cursor: pointer;
+    transition: 0.3s;
+    transform: translateX(101%);
+    padding: 5px;
+    font-weight: bold;
+    background-color: burlywood;
+    border: none
+}
+.img-container:hover .addtobagbtn{
+    opacity: 2;
+    transform: translateX(0);
+}
+.addtobagbtn:hover{
+    opacity: 1;
+}
+.cart-icon{
+    cursor: pointer;
+}
+.cart-values{
+    margin-left: -7px;
+    background-color: orange;
+    /* z-index: 1; */
+    border-radius: 10px;
+    padding: 1px;
+    color: aliceblue;
+}
+.cart-container{
+    width: 100%;
+    height: 100%;
+    top:0%;
+    background-color: aquamarine;
+    position: fixed;
+    transition: 0.3s;
+    transform: translateX(101%);
+    visibility: hidden;
+    z-index: 2;
+}
+.cart{
+    top:15%;
+    left: 3%;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    position: fixed;
+}
+.abc{
+    width: 100%;
+    height: 90%;
+    top:0%;
+    background-color: gainsboro;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    transition: 0.3s;
+    transform: translateX(60%);
+    visibility: visible;
+    z-index: 2;
+}
+.cart-remove-btn{
+    padding: 5px;
+    font-weight: bold
+}
+.cart-close-btn{
+    margin: 50px;
+    margin-left: 100px;
+    padding: 5px;
+    font-weight: bold;
+    background-color: coral;
+    color:white;
+    border: none;
+    cursor: pointer;
+}
